@@ -650,11 +650,12 @@ body {
   margin-bottom: 20px;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
 }
 
 .contacts .down .right form .name input {
   width: 50%;
-  height: 40px;
+  height: 15px;
   border-radius: 3px;
 }
 

@@ -1,15 +1,15 @@
-<!doctype declaration>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>DEFAULT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/libs.css">
     <link rel="icon" href="img/icon/favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css" type="text/css" media="screen">
 
 
 </head>
@@ -189,42 +189,42 @@
 							<div class="item photo">
 								<img src="img/photo1.jpg" alt="">
 								<span>Photo 1</span>
-								<div class="img-hover"><a id="single_image" href="img/photo1.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/photo1.jpg">+</a></div>
 							</div>
 							<div class="item photo">
 								<img src="img/photo2.jpg" alt="">
 								<span>Photo 2</span>
-								<div class="img-hover"><a id="single_image" href="img/photo2.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/photo2.jpg">+</a></div>
 							</div>
 							<div class="item photo">
 								<img src="img/photo3.jpg" alt="">
 								<span>Photo 3</span>
-								<div class="img-hover"><a id="single_image" href="img/photo3.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/photo3.jpg">+</a></div>
 							</div>
 							<div class="item logo">
 								<img src="img/logo2.jpg" alt="">
 								<span>logo 1</span>
-								<div class="img-hover"><a id="single_image" href="img/logo2.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/logo2.jpg">+</a></div>
 							</div>
 							<div class="item logo">
 								<img src="img/logo3.jpg" alt="">
 								<span>logo 2</span>
-								<div class="img-hover"><a id="single_image" href="img/logo3.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/logo3.jpg">+</a></div>
 							</div>
 							<div class="item logo">
 								<img src="img/logo1.jpg" alt="">
 								<span>logo 3</span>
-								<div class="img-hover"><a id="single_image" href="img/logo1.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/logo1.jpg">+</a></div>
 							</div>
 							<div class="item web">
 								<img src="img/web3.jpg" alt="">
 								<span>Web 1</span>
-								<div class="img-hover"><a id="single_image" href="img/web3.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/web3.jpg">+</a></div>
 							</div>
 							<div class="item web">
 								<img src="img/web4.jpg" alt="">
 								<span>web 2</span>
-								<div class="img-hover"><a id="single_image" href="img/web4.jpg">+</a></div>
+								<div class="img-hover"><a data-fancybox="gallery" href="img/web4.jpg">+</a></div>
 							</div>
 						</div>
 					</div>
@@ -251,7 +251,7 @@
 									<p>+44 555 555 555 <br>+44 556  555 555 <br>info@acrostia.com <br>Ac0stia</p>
 								</div>
 							</div>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11080.008441141288!2d36.220465723072266!3d49.99870888227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0e3a57ffc05%3A0xc824727bae02964a!2z0JHQvtGC0LDQvdC40YfQtdGB0LrQuNC5INGB0LDQtA!5e0!3m2!1sru!2sua!4v1524850019497" width="100%" height="auto" frameborder="0" style="border-radius: 3px" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11080.008441141288!2d36.220465723072266!3d49.99870888227798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0e3a57ffc05%3A0xc824727bae02964a!2z0JHQvtGC0LDQvdC40YfQtdGB0LrQuNC5INGB0LDQtA!5e0!3m2!1sru!2sua!4v1524850019497"></iframe>
 						</div>
 					</div>
 					<div class="right">
@@ -261,7 +261,7 @@
 								<input type="text" placeholder="Name">
 								<input type="text" placeholder="Surname" class="surname">
 							</div>
-							<textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Type a questons..."></textarea>
+							<textarea name="textarea" cols="30" rows="10" class="textarea" placeholder="Type a questons..."></textarea>
 							<button class="submit">SEND</button>
 						</form>
 					</div>
@@ -282,10 +282,10 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
 <script src="js/main.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
 
 
 </body>
