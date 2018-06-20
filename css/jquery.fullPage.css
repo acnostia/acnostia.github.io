@@ -73,10 +73,25 @@ html.fp-enabled,
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
+@media screen and (max-width: 480px) {
+    .fp-controlArrow.fp-prev {
+        border-width: 15px 15px 15px 0;
+    }
+    .fp-controlArrow {
+        top: 54%;
+    }
+}
+
+
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
+}
+@media screen and (max-width: 480px) {
+    .fp-controlArrow.fp-next {
+        border-width: 15px 0 15px 15px;
+    }
 }
 .fp-scrollable {
     overflow: hidden;

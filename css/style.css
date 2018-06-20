@@ -657,6 +657,7 @@ body {
   width: 50%;
   height: 15px;
   border-radius: 3px;
+  box-sizing: border-box;
 }
 
 .contacts .down .right form .name .surname {
@@ -669,7 +670,8 @@ body {
   border-radius: 3px;
   background: #68a097;
   padding: 10px;
-  font: 400 13.3333px Arial
+  font: 400 13.3333px Arial;
+  box-sizing: border-box;
 }
 
 .contacts .down .right form .textarea:focus {
@@ -765,7 +767,7 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contacts .down .left {
     width: 100%;
   }
@@ -856,7 +858,7 @@ body {
 
 @media screen and (max-width: 510px) {
   #menu li a {
-    font-size: 15px;
+    font-size: 13.5px;
   }
 
   .content {
